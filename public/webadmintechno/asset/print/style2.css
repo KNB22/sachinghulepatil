@@ -1,0 +1,197 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 21cm;  
+  height: 29.7cm; 
+  margin: 0 auto; 
+  color: #001028;
+  background: #FFFFFF; 
+  font-size: 12px !important; 
+  font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 90px;
+}
+
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(dimension.png);
+}
+
+#project {
+   float: left;
+}
+
+#project span {
+  color: #000000;
+  text-align: right;
+  width: 94px;
+  margin-right: 10px;
+  display: inline-block;
+  font-weight:600;
+ /* font-size: 0.8em;*/
+}
+.project23 span {
+  color: #5D6975;
+  text-align: right;
+  width: 85px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+#company {
+  float: right;
+  padding-right: 85px;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;        
+}
+#company span {
+    color: #000000;
+    text-align: right;
+    width: 94px;
+    margin-right: 10px;
+    display: inline-block;
+	font-weight:600;
+    /* font-size: 0.8em; */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th {
+  padding: 5px 20px;
+  color: #000000;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;        
+  font-weight: 800;
+}
+
+table .service,
+table .desc {
+  text-align: center;
+}
+
+table td {
+  /*padding: 20px;*/
+  padding: 10px;
+  text-align: right;
+}
+.service {
+  width: 0;
+}
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 95%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}
+@media print
+{    
+    .btn, .btn *
+    {
+        display: none !important;
+    }
+    #create_pdf{
+        display: none !important;
+    }
+
+     * {-webkit-print-color-adjust:exact;}
+    }
+}
+p {
+  overflow: hidden;
+  max-width: 130ch;
+}
+
+.page{
+  background: #cccccc;
+}
+
+#info div {
+    width: 50%;
+}
+
+#company1 {
+    float: right;
+    width:50%;
+}
+#project1 {
+    float: left;
+	width:50%;
+}
+#netpay{
+border-top:1px solid;
+border-bottom:1px solid;
+float: right;
+width:100%;
+margin-bottom:30px;
+}

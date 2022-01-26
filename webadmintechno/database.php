@@ -1,8 +1,8 @@
 <?php
-	$database = "amor";
+	$database = "adctegwn_sachinghulepatil";
 	$host     = "localhost";
-	$user     = "root";
-	$password = "root";
+	$user     = "adctegwn_sachinghulepatil";
+	$password = "rootadmin";
 	
 	//$mysqli   = mysqli_connect($host, $user, $password);
 	$mysqli = new mysqli($host, $user, $password, $database);
